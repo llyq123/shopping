@@ -1,3 +1,18 @@
+@font-face {font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_2207033_xl2bn794p6r.eot?t=1605595961431'); /* IE9 */
+    src: url('//at.alicdn.com/t/font_2207033_xl2bn794p6r.eot?t=1605595961431#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOUAAsAAAAAB6wAAANIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDFAqCcIJEATYCJAMQCwoABCAFhG0HRRurBsiemjwhhIjFAp7LAyLoMiuC7/f77bn3fNSSJJNE9+kmiWRSIiSIjdAIhe4lvP/Vab9ArCKCa8uKG1CeohSAJjyYCSeabwOCreOtzcS5Nk3q87KRDLtEN9204qs06b/zUb1T+8S90/8bS2g+y3Jbi9YY+jHAuPMu0L1szPNASywgbdBdxMSIT/sJdJmUwGy7qqEDbCUwLBB3ChHA1jLJkerQIbT1zM2IN7DSUV7MnwB45d+Pf0gLW4pWBcbuXFRKUPIF/wotFk2LBigBiv0ciBZRsQQkcd7rOmMhU0ssdBXbWVoB2qRQvsz+FZoasKeMm7in4v5/vKISbUBlD1h105UvwBB8SSh8FVao8DIGd6AND8Czxxz/zRRi0C3J0npE3Hndlny+Psv3fS02j0/QWM/bOQ09Ll/8Qs6HLjuwGIdtX+ueQKrvuuy3L40juHSdhcftBHOIJgdpdZ3amRYstZKZoxKXu8jG9SKRHLKVT3a8kVQeiSe/on+dSxKCz/GGk6CfmUfhuZ8tXhH/jj/PBf0rA8/e2eY2fP2wEOTv1G+dGudZdMcPv5ewTxLP3InvfKNL0+Nqe6+HI8Rr92VsiU9wYdeRuQiG3/cGYGQ/7KFEiPjosAEy9lK/Rn81gdd+mfryNOIpCrnpjn9F6Is1PAGNZvXUogKgeflnEQ5A3Tcv+UPH+djPj4ZdCv7bdif4/HiQ68vW8RLKdCjMVvyPTmnZIGMVMGUSU4Mr54elA6NAQRf00Xi+Id/2MI4WlYQOoxpFuwlUHabIZC6hpdsq2nRYQ5dF1Yu7DWMsRHZiwZqDMOA2ij7vqAY8JZP5FS1jTtFmICzQ5Sg81uw2E4p9OcMCxxIanUKKSHUysnJ7Ud2GiVEjMFPF+V2YGZQoSk1KaWarsQ6zPSYYxkka5zKSGdWiKucwrNFQpGd0DIs8ScW5Pi85We57UJJItWBvC4MJOEyCjJqCKESUjkxbc/atz7fBCCMNARuhLKS7YIyB0j2SKknKDLJar5tFeZdTDMYRaThOhsgYSgupchyYBqYoRN/fawwm4pKoViT08iR7zeS5+qTzjdon3AZdwF0yStTIaGldUuOE0UFgjE4kMoWouNWkImgEAA==') format('woff2'),
+    url('//at.alicdn.com/t/font_2207033_xl2bn794p6r.woff?t=1605595961431') format('woff'),
+    url('//at.alicdn.com/t/font_2207033_xl2bn794p6r.ttf?t=1605595961431') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_2207033_xl2bn794p6r.svg?t=1605595961431#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 /* 版心 */
 .w{
     width: 1200px;
@@ -27,6 +42,9 @@
     background-color: black;
     margin: 9px 15px;
 }
+.iconxiala:before {
+    content: "\e63d";
+  }
 /* 头部 */
 .header{
     position: relative;
@@ -86,6 +104,15 @@
     border: #dfdfdf solid 1px;
     background-color: #f7f7f7;
 }
+.icongouwu:before {
+    content: "\e600";
+    color: #b1191a;
+  }
+  
+.iconarrow-right:before {
+    content: "\e601";
+    font-size: 10px;
+  }
 .count{
     position: absolute;
     top: -5px;
@@ -97,3 +124,55 @@
     padding: 0 5px;
     border-radius: 7px 7px 7px 0;
 }
+/* 导航 */
+.nav{
+    height: 47px;
+    border-bottom: #b1191a solid 2px;
+}
+.nav .dropdown{
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+ .dropdown .dt{
+     width: 100%;
+     height: 100%;
+     line-height: 45px;
+     text-align: center;
+     font-size: 16px;
+     color: #fff;
+ }
+ .dropdown .dd{
+     width: 210px;
+     height: 465px;
+     background-color: #c81623;
+ }
+ .dropdown .dd ul li{
+     position: relative;
+     height: 31px;
+     padding-left: 10px;
+     margin-left: 2px;
+     line-height: 31px;
+ }
+ .dropdown .dd ul li:hover{
+     background-color: #fff;
+ }
+ .dropdown .dd ul li a{
+     font-size: 14px;
+     color: #fff;
+ }
+ .iconarrowright{
+     position: absolute;
+     right: 10px
+ }
+ .iconarrowright:before{
+    content: "\e601";
+    font-size: 10px;
+    color: #fff;
+ }
+ .dropdown .dd ul li:hover a{
+    color: #c81623;
+ }
+ .dropdown .dd ul li:hover .iconarrowright:before{
+    color: #c81623;
+ }
