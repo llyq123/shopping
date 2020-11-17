@@ -1,0 +1,27 @@
+.w{
+    width: 1200px;
+    margin: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.style_color{
+    color: #c81623;
+}
+.shortcut{
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.shortcut ul li{
+    float: left;
+}
+.shortcut .right li:nth-child(even){
+    width: 1px;
+    height: 12px;
+    background-color: black;
+    margin: 9px 15px;
+}
