@@ -115,3 +115,44 @@
 .bargain{
     margin-top: 5px;
 }
+.recom{
+    height: 163px;
+    margin-top: 12px;
+}
+.recom_hd{
+    float: left;
+    width: 207px;
+    height: 163px;
+    background-color: #5c5251;
+}
+.recom_hd img{
+    margin: 30px 0 10px 75px;
+   
+}
+.recom_hd p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.recom_bd{
+    float: left;
+    width: 992px;
+    height: 163px;
+    background-color: #EBEBEB;
+    overflow: hidden;
+}
+.recom_bd ul li{
+    position: relative;
+    float: left;
+}
+.recom_bd ul li::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 1px;
+    height: 143px;
+    background-color: #000000;
+}
+.recom_bd ul li img{
+    width: 248px;
+}
