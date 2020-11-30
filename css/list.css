@@ -1,5 +1,5 @@
-.header{
-    position: relative;
+.nav{
+    overflow: hidden;
 }
 .sk{
     position: absolute;
@@ -27,4 +27,67 @@
     margin: 0 22px;
     line-height: 49px;
     font-size: 14px;
+}
+.sk_bd{
+    text-align: center;
+}
+.sk_bd .describe{
+    text-align: left;
+    margin: 0 12px;
+    font-size: 14px;
+}
+.sk_bd ul li{
+    float: left;
+    height: 413px;
+    width: 291px;
+    border: 1px solid transparent;
+    margin-right: 12px;
+}
+.sk_bd ul li:hover{
+    border: 1px solid #B11919;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd h4{
+    color: #B2B2B2;
+}
+.sk_bd .price{
+    font-size: 18px;
+    color: #E70F20;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.sk_bd .price span{
+    font-size: 12px;
+    color: #A4A4A4;
+    text-decoration: line-through;
+}
+.sk_bd .sold{
+    height: 20px;
+}
+.sk_bd .sold div{
+    float: left;
+}
+.sk_bd .sold .bar{
+    width: 120px;
+    height: 20px;
+    border: #EC272E 1px solid;
+    margin: 0 20px 0 10px;
+}
+.sk_bd .sold .bar .bar_in{
+    width: 87%;
+    height: 100%;
+    background-color: #EC272E;
+}
+.sk_bd .operate{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #B11919;
+    margin-top: 10px;
+}
+.sk_bd .operate a{
+    color: #fff;
+    font-size: 18px;
 }
