@@ -1,0 +1,30 @@
+.header{
+    position: relative;
+}
+.sk{
+    position: absolute;
+    top: 39px;
+    left: 185px;
+    padding: 2px 0 2px 11px;
+    border-left: #B11919 2px solid;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+    margin: 0 28px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000000;
+    font-size: 16px;
+}
+.sk_con{
+    float: left;
+}
+.sk_con ul li{
+    float: left;
+    margin: 0 22px;
+    line-height: 49px;
+    font-size: 14px;
+}
