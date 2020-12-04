@@ -1,0 +1,147 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    height: 84px;
+    line-height: 84px;
+}
+.loginArea{
+    height: 487px;
+    background-color: #7e00ff;
+}
+.login{
+    position: relative;
+    height: 487px;
+    background: url(../images/loginbg.png) no-repeat;
+}
+.loginform{
+    position: absolute;
+    right: 116px;
+    top: 62px;
+    width: 380px;
+    height: 364px;
+    background-color: #ffffff;
+}
+.login-tabs li{
+    float: left;
+    width: 190px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.notice{
+    width: 303px;
+    height: 27px;
+    line-height: 27px;
+    margin: 0 auto;
+    padding-left: 10px;
+    background-color: #FFFCED;
+}
+.tab-content{
+    padding: 0 38px;
+}
+.tab-content .input-prepend{
+    width: 305px;
+    height: 38px;
+    border: #CECDCD solid 1px;
+    margin: 10px 0;
+}
+.add-on{
+    float: left;
+    width: 38px;
+    height: 36px;
+    background-color: #CECDCD;
+}
+.loginname{
+    background-image: url(../images/icons.png);
+    background-position: -10px -201px;
+}
+.loginpass{
+    background-image: url(../images/icons.png);
+    background-position: -72px -201px;
+}
+.input-prepend input{
+    float: left;
+    width: 265px;
+    height: 36px;
+    padding-left: 10px;
+}
+.setting{
+    position: relative;
+    width: 305px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+}
+.forget{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.submit button{
+    width: 305px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #C71523;
+    margin-top: 10px;
+}
+.sui-form.form-horizontal .controls input[type="checkbox"] {
+    background: url("../images/checked.png") no-repeat;
+}
+.coagent{
+    margin: 30px 38px 0 38px;
+    position: relative;
+}
+.coagent ul li{
+    float: left;
+    width: 36px;
+    height: 34px;
+    margin: 0 5px;
+    background: url(../images/regetype.png) no-repeat
+}
+.coagent ul li:nth-child(1){
+    background-position: -17px -7px;
+}
+.coagent ul li:nth-child(2){
+    background-position: -67px -7px;
+}
+.coagent ul li:nth-child(3){
+    background-position: -121px -7px;
+}
+.coagent ul li:nth-child(4){
+    background-position: -173px -7px;
+}
+.coagent ul li:nth-child(5){
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background:none;
+    width: 50px;
+}
+.extra{
+    color: #1474AF;
+}
+.mod_copyright{
+    text-align: center;
+    padding-top: 20px;
+}
+.links{
+    margin-bottom: 15px;
+}
+.links span{
+   display: inline-block;
+   width: 1px;
+   height: 12px;
+   background-color: black;
+   margin: 0 15px;
+}
+.copyright{
+    line-height: 20px;
+}
