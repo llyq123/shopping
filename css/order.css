@@ -1,0 +1,39 @@
+header{
+    position: relative;
+    height: 106px;
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 290px;
+}
+.logo h5{
+    position: absolute;
+    top: 12px;
+    left: 190px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.cart-search{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 538px;
+    height: 36px;
+    border: #b1191a solid 2px;
+}
+.cart-search input{
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+.cart-search button{
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
