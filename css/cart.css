@@ -40,3 +40,261 @@ header{
     font-size: 16px;
     color: #fff;
 }
+.cart-filter-bar{
+    width: 100%;
+    height: 38px;
+    padding: 0 5px;
+}
+.cart-filter-bar .cart-switch{
+    float: left;
+    width: 109px;
+}
+.cart-switch a{
+    color: #C81623;
+    font-size: 16px;
+}
+.cart-filter-bar .cart-store{
+    float: right;
+    width: 344px;
+}
+
+.cart-store div{
+    float: right;
+}
+.cart-store span{
+    float: right;
+}
+.cart-thead{
+    height: 38px;
+    background-color: #F5F5F5;
+    border: #dddddd solid 1px;
+}
+.column{
+    float: left;
+    height: 18px;
+    padding: 9px 0;
+}
+.cart-checkbox{
+    float: left;
+    position: relative;
+    top: 2px;
+}
+.t-checkbox{
+    width: 116px;
+}
+.t-goods{
+    width: 250px;
+}
+.t-props{
+    width: 210px;
+}
+.t-price{
+    width: 152px;
+}
+.t-quantity{
+    width: 118px;
+}
+.t-sum{
+    width: 182px;
+}
+.t-action{
+    width: 170px;
+}
+.shop{
+    position: relative;
+    height: 24px;
+    margin-top: 20px;
+    border-bottom: #dddddd solid 2px;
+}
+.shop-txt .diy{
+    background-color: #C71523;
+    color: #fff;
+    margin-left: 5px;
+}
+.shop-txt .shop-name{
+    margin-left: 5px;
+}
+.shop-extra{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.shop-extra .shop-price{
+    margin: 0 5px;
+}
+.shop-extra a{
+    color: #C71523;
+}
+.item-list{
+    margin-top: 20px;
+}
+.item-item{
+    border: #dddddd solid 1px;
+}
+.cell{
+    float: left;
+    padding: 15px 0 10px;
+}
+.p-checkbox{
+    margin: 0 10px 0 5px;
+}
+.p-goods{
+    width: 324px;
+}
+.p-props{
+    width: 190px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.p-price{
+    width: 162px;
+    padding-left: 30px;
+}
+.p-quantity{
+    width: 142px;
+}
+.p-sum{
+    width: 182px;
+}
+.p-action{
+    width: 170px;
+}
+.goods-item .p-img{
+    float: left;
+    border: #dddddd solid 1px;
+}
+.goods-item .p-img img{
+    width: 80px;
+}
+.goods-item .p-msg{
+    float: left;
+    width: 228px;
+    height: 46px;
+    margin-left: 10px;
+}
+.p-extend{
+    color: #999999;
+}
+.p-quantity .p-count{
+    width: 102px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.p-quantity .increment{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: #dddddd solid 1px;
+}
+.mins{
+    border-right: none;
+}
+.plus{
+    border-left: none;
+}
+.p-quantity .itxt{
+    float: left;
+    width: 40px;
+    height: 30px;
+    padding-left: 15px;
+    border: #dddddd solid 1px;
+}
+.youhuo{
+    padding-left: 35px;
+}
+.cart-toolbar{
+    height: 52px;
+    border: #dddddd solid 1px;
+    margin-top: 20px;
+}
+.cart-toolbar .left{
+    float: left;
+    width: 478px;
+    height: 50px;
+    padding: 16px 0;
+}
+.cart-toolbar .right{
+    float: left;
+    width: 720px;
+    height: 50px;
+}
+.selectAll{
+    float: left;
+    margin: 0 10px;
+}
+.operation{
+    float: left;
+}
+.operation a{
+    margin: 0 5px;
+}
+.right .btn-sum{
+    float: right;
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #E60012;
+}
+.right .btn-sum a{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+.right .price-sum{
+    float: right;
+    /* padding: 10px 30px 0 0; */
+}
+.price-show{
+    float: right;
+    padding: 5px 30px 0 10px;
+}
+.price-show .sum-price span{
+    font-size: 16px;
+    color: #E60012;
+}
+.price-show .save-price{
+    text-align: center;
+}
+.amount-sum{
+    float: right;
+    padding-top: 10px;
+}
+
+.cart-remove{
+    margin: 20px 0;
+}
+.tit{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.cart-remove-item{
+    height: 35px;
+    line-height: 35px;
+    background-color: #FFFDED;
+}
+.cart-remove-item .name{
+    float: left;
+    width: 436px;
+    margin-left: 10px;
+}
+.cart-remove-item .price{
+    float: left;
+    width: 158px;
+    margin-left: 206px;
+}
+.cart-remove-item .quantity{
+    float: left;
+    width: 109px;
+}
+.cart-remove-item .opt{
+    float: left;
+    width: 218px;
+    text-align: right;
+}
+.cart-remove-item .opt a{
+    margin: 0 5px;
+}
